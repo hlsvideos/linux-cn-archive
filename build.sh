@@ -5,3 +5,5 @@ tar xf hugo_extended_0.126.2_Linux-64bit.tar.gz
 time ./hugo --gc --minify
 ls
 rm -r ./public/data/attachment/album
+
+find ./public|wc
