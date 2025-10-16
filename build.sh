@@ -11,6 +11,7 @@ ls
 
 find ./public > find-public.txt
 #rm -r ./public/data/attachment/album
+rm -r ./public/data/attachment/album/201*
 rm -r ./public/tags
 cp find-public.txt public
 mv find-public.txt public/index.txt
