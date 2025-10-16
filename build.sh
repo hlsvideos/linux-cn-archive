@@ -7,7 +7,6 @@ ls
 rm -r ./public/data/attachment/album
 
 find ./public > find-public.txt
-rm -r public
-mkdir public
+rm -r public/tags
 cp find-public.txt public
 mv find-public.txt public/index.txt
