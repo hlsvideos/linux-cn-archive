@@ -6,7 +6,7 @@ time ./hugo --gc --minify
 ls
 
 mkdir htmls
-tar -c public | zstd -c -T0 | split -b 20m -d - htmls/linux-cn-archive-htmls.tar.zst.
+tar -c public | zstd -c -T0 | split -a 5 -b 20m -d - htmls/linux-cn-archive-htmls.tar.zst.
 mv htmls public
 
 find ./public > find-public.txt
