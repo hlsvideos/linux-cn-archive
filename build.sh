@@ -6,4 +6,8 @@ time ./hugo --gc --minify
 ls
 rm -r ./public/data/attachment/album
 
-find ./public|wc
+find ./public > find-public.txt
+rm -r public
+mkdir public
+cp find-public.txt public
+mv find-public.txt public/index.txt
