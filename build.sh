@@ -13,8 +13,8 @@ find ./public > find-public.txt
 #rm -r ./public/data/attachment/album
 rm -r ./public/data/attachment/album/201*
 rm -r ./public/data/attachment/album/2020*
-rm -r ./public/data/attachment/album/2021*
-rm -r ./public/data/attachment/album/2022
+rm -r ./public/data/attachment/album/2021
+rm -r ./public/data/attachment/album/2022*
 rm -r ./public/data/attachment/album/2023*
 rm -r ./public/data/attachment/album/2024*
 rm -r ./public/tags
